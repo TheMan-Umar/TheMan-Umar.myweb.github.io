@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: #273a36;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: antiquewhite;
+}
+
+/*   ***** NAVIGATION *****   */
+.sticky {
+    position: fixed;
+    width: 100%;
+    background-color: #5a5b62;
+    transition: all 0.3s linear;
+}
+
+.sticky:hover {
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+li {
+    padding: 30px;
+    display: inline;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: #aca0a0;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ffff;
+    transform: scale(0.2s);
+}
+
+/* Social Media  */
+svg {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+svg:hover {
+    transform: scale(1.1);
+    /* transform: 0.3s ease; */
+}
+/**** End of Socail Media  ****/
+
+
+/**** Home Section  ****/
+#intro {
+    padding-top: 50px;
+    padding-bottom: 10spx;
+    text-align: center;
+}
+
+section > #intro {
+    font-family: sans-serif;
+    font-size: 2.5rem;
+}
+/****  End Of Home Section  ****/
+
+
+/**** About Section  ****/
+
+.about {
+    padding-left: 9%;
+    padding-top: 60px;
+}
+
+span {
+    font-weight: 100;
+}
+/**** End Of About Scetion  ****/
+#contact {
+    padding-top: 60px;
+    padding-left: 7%;
+}
+/**** Contact Section  ****/
+
+#contact {
+    margin-bottom: 40px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 50px;
+    border: solid #5a5b62;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+button {
+    border-radius: 70px;
+    background-color: #5a5b62;
+    border: solid #273a36;
+    padding: 7px;
+    font-weight: bolder;
+    margin-left: 2px;
+    margin-top: 5px;
+    color: #aca0a0;
+}
+
+button:hover{
+    border: solid #273a36;
+    transform: scale(1.1);
+    background-color: #1c1f1e;
+}
+
+
+
+/**** End Of Contact Section  ****/
+.zone {
+    color:#FFF;
+    border-radius:4px;
+    /* border:1px solid #817f7f; */
+}
+
+
